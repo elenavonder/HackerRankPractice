@@ -19,6 +19,16 @@ namespace HackerRankPractice
             }
 
             Console.ReadKey();
+
+            var sum = 0;
+            for (var idx = 1; idx <= 50; idx++)
+            {
+                if (idx % 7 == 0 || idx % 5 == 0)
+                {
+                    sum += idx;
+                }
+                return sum;
+            }
         }
     }
 }
